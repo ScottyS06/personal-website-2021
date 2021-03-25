@@ -1584,6 +1584,9 @@ header .logo a {
 	.intro-info img {
 		height: 7.8rem;
 		width: 7.8rem;
+		position: relative;
+		top: 0;
+		right: 0;
 	}
 	.intro-info .lead {
 		padding-left: 11rem;
