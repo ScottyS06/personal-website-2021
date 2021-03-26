@@ -246,7 +246,7 @@
 	            // There was an error
 	            else {
 	            	sLoader.fadeOut(); 
-	               $('#message-warning').html(msg);
+	               	$('#message-warning').html(msg);
 		            $('#message-warning').fadeIn();
 	            }
 
