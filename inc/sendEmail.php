@@ -1,7 +1,5 @@
 ﻿<?php
 
-ini_set('display_errors', 1);
-
 // Replace this with your own email address
 $siteOwnersEmail = 'scottysingh7@gmail.com';
 
