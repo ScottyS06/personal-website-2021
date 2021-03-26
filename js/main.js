@@ -245,6 +245,8 @@
 	            }
 	            // There was an error
 	            else {
+	            	console.log("very very bad")
+
 	            	sLoader.fadeOut(); 
 	               	$('#message-warning').html(msg);
 		            $('#message-warning').fadeIn();
@@ -253,9 +255,11 @@
 		      },
 		      error: function() {
 
+		      	console.log("very bad")
+
 		      	sLoader.fadeOut(); 
 		      	$('#message-warning').html("Something went wrong. Please try again.");
-		         $('#message-warning').fadeIn();
+		      	$('#message-warning').fadeIn();
 
 		      }
 
