@@ -224,17 +224,24 @@
 
 			var sLoader = $('#submit-loader');
 
-			$.ajax({      	
+			console.log("1");
+
+			$.ajax({
+
+
 
 		      type: "POST",
 		      url: "inc/sendEmail.php",
 		      data: $(form).serialize(),
 		      beforeSend: function() { 
 
+		      	console.log("3");
 		      	sLoader.fadeIn(); 
 
 		      },
 		      success: function(msg) {
+
+		      	console.log("2");
 
 	            // Message was sent
 	            if (msg == 'OK') {
